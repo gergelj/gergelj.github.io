@@ -1,97 +1,156 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
+    - name: Name
+      value: Gergelj Kiš
+    - name: Title
+      value: Data Engineer
     - name: Date of Birth
-      value: 14th March 1879
+      value: 13th August 1998
     - name: Languages
-      value: English, German
+      value: English, Hungarian (native), Serbian
+    - name: Image
+      value: prof_pic.jpg
+    - name: Website
+      links:
+        - link: https://gergelj.github.io
+          name: gergelj.github.io
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master Academic Studies
+      institution: Faculty of Technical Sciences, Novi Sad
+      year: 2021 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Computing and Control - High performance computing
+    - title: Undergraduate Academic Studies
+      institution: Faculty of Technical Sciences, Novi Sad
+      year: 2017 - 2021
+      description:
+        - Bachelor with Honours in Electrical and Computer Engineering
+        - title: "Field of studies:"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Databases
+            - Information systems
+            - Computing and Control
+    - title: High School Studies
+      institution: Mihajlo Pupin Vocational School, Novi Sad
+      year: 2013 - 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Multimedia technician
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Engineer
+      department: Valcon, Novi Sad
+      year: 2022 - present
+      maindescription: Data Engineer Specialist
+      description: Tech project team lead
+      linkitems:
+        - link: https://www.valcon.com/sr
+          linkname: valcon.com
+    - title: Teaching fellow
+      institution: Faculty of Technical Sciences, Novi Sad
+      year: 2021 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: "Subjects:"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Databases 1
+            - Databases 2
+            - Database Systems
+
+    - title: Teaching fellow
+      institution: Faculty of Technical Sciences, Novi Sad
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
+        - title: "Subjects:"
+          contents:
+            - Computer Architecture
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Courses/training
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "AZ-900: Microsoft Azure Fundamentals"
+      year: june 2022
+      maindescription: Cloud concepts; Azure architecture and services; and Azure management and governance.
+    - title: "Full-Stack Internship"
+      year: september 2021
+      location: Valcon, Novi Sad
+      maindescription: Library web application developed in Spring boot and Angular framework.
+    - title: "Full-Stack Internship"
+      year: march 2021
+      location: NovaLite, Novi Sad
+      maindescription: Social networking web application made with Scala and VueJS.
+    - title: "Android Developer Course"
+      year: july 2019
+      location: RT-RK Institut, Novi Sad
+      maindescription: Mobile Android application for bluetooth connectivity with IoT devices.
 
-- title: Honors and Awards
+- title: Conferences
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Codeday 2022
+      year: october 2022
+      location: Novi Sad, Serbia
+      linkitems:
+        - link: https://www.codeference.org/post/codeday2022
+          linkname: webpage
+      maindescription: How to start a career in IT?
+    - title: The 23rd Scientific Student Conference of Technical Sciences
+      year: may 2022
+      location: Timișoara, Romania
+      linkitems:
+        - link: https://mtdk.tmd.ro/index.php/site/page/?p=20
+          linkname: webpage
+      maindescription: "RelNorm: An educational tool for relational database normalization"
+    - title: 12th International Conference on Information Society and Technology
+      year: march 2022
+      location: Kopaonik, Serbia
+      linkitems:
+        - link: https://www.eventiotic.com/eventiotic/library/paper/696
+          linkname: webpage
+      maindescription: A Model-Driven Approach to Establishment of DLT Networks Based on a Description of Collaborative Production Processes
+      description: "Co-authors: Nikola Todorović, Vladimir Dimitrieski"
+    - title: 19th Hungarian Scientific Conference of Vojvodinian Students
+      year: november 2020
+      location: Novi Sad, Serbia
+      linkitems:
+        - link: https://vmtdk.edu.rs/termeszet-altal-inspiralt-optimalizacios-megoldasok
+          linkname: webpage
+      maindescription: Nature-inspired optimization solutions
 
-- title: Academic Interests
+- title: Professional skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming languages
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - SQL
+        - Python
+        - Java
+        - Javascript/Typescript
+        - Go
+        - HTML
+        - CSS
+        - C#
+        - C
+    - title: Frameworks/systems
       items:
-        - Description 1.
-        - Description 2.
+        - Azure Synapse Analytics
+        - Databricks
+        - Azure Data Lake Storage
+        - Power BI
+        - RDBMS
+        - Mendix
+        - Angular
+        - Hyperledger Fabric
+        - Spring
+    - title: Other tools
+      items:
+        - Git
+        - Docker
+        - Azure Pipelines
+        - Data modeling
+        - UML diagrams
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
