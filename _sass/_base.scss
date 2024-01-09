@@ -19,6 +19,50 @@ strong {
   color: var(--global-text-color);
 }
 
+@media print {
+  .noprint {
+     display: none;
+  }
+
+  progress {
+    display: none;
+  }
+
+  body {
+    padding-top: 0 !important;
+  }
+
+  .card {
+    page-break-inside: avoid;
+    width: 48%;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .col-sm-9 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  .cv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .anchors {
+    display: none;
+  }
+
+  .cv-profile-pic {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }

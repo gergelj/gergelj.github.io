@@ -1,3 +1,22 @@
+{% for content in data[1] %}
+  {% if content[0] == "image" %}
+  <div class="profile float-left">
+    {%- if content[1] %}
+      {%- assign profile_image_path = content[1] | prepend: 'assets/img/' -%}
+      {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+      {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+      {% include figure.html
+        path = profile_image_path
+        class = profile_image_class
+        sizes = sizes
+        alt = profile.image 
+      %}
+    {% endif -%}
+  </div>
+  {% endif %}
+{% endfor %}
+
+
 <table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
   {% assign skip_basics = "image,profiles,location" | split:"," %}
   {% for content in data[1] %}

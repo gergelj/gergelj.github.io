@@ -1,5 +1,29 @@
+<div class="row">
+{% for content in entry.contents %}
+  {% if content.name == "Image" and content.value %}
+  <div class="col-xs-3 cl-sm-3 col-md-3 cv-profile-pic">
+      {%- if content.value %}
+        {%- assign profile_image_path = content.value | prepend: 'assets/img/' -%}
+        {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+        {% include figure.html
+          path = profile_image_path
+          class = profile_image_class
+          sizes = sizes
+          alt = profile.image 
+        %}
+      {% endif -%}
+  </div>
+  {% endif %}
+{% endfor %}
+
+<div class="col-xs-9 cl-sm-9 col-md-9 mt-2 mt-md-0">
 <table class="table table-cv table-sm table-borderless table-responsive">
-    {% for content in entry.contents %}
+  {% assign skip_basics = "Image,Profiles,Location" | split:"," %}
+  {% for content in entry.contents %}
+    {% if (content.value == "") or (skip_basics contains content.name) %}
+      {% continue %}
+    {% endif %}
       <tr>
         <td class="p-1 pr-2 font-weight-bold"><b>{{ content.name }}</b></td>
         {% if content.value %}
@@ -25,3 +49,5 @@
       </tr>
     {% endfor %}
 </table>
+</div>
+</div>
