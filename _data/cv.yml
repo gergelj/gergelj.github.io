@@ -72,6 +72,11 @@
 - title: Courses/training
   type: time_table
   contents:
+    - title: "Databricks Certified Data Engineer Associate"
+      year: february 2024
+      linkitems:
+        - link: https://credentials.databricks.com/83679e08-d5ff-45c2-a8bd-88902decac18#gs.8qqfyt
+          linkname: certificate
     - title: "AZ-900: Microsoft Azure Fundamentals"
       year: june 2022
       maindescription: Cloud concepts; Azure architecture and services; and Azure management and governance.
