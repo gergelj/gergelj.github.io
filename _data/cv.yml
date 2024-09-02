@@ -19,11 +19,6 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master Academic Studies
-      institution: Faculty of Technical Sciences, Novi Sad
-      year: 2021 - present
-      description:
-        - Computing and Control - High performance computing
     - title: Undergraduate Academic Studies
       institution: Faculty of Technical Sciences, Novi Sad
       year: 2017 - 2021

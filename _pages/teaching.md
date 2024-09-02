@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: <em>the crux of the matter.</em>
+description: <em>the crux of the matter</em>
 nav: true
 nav_order: 6
 ---
