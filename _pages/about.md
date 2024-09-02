@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <em>a little about me on the home page because I'm a leo</em>
+subtitle: <em>a little about me on the home page since I'm a leo</em>
 
 profile:
   align: right

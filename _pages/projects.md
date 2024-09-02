@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: a collection of projects that kept me up at nights
+description: <em>a collection of projects that kept me up at nights</em>
 nav: true
 nav_order: 3
 display_categories: [work, fun]
