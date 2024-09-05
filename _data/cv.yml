@@ -42,11 +42,11 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Data Engineer
+    - title: Data Engineer Senior Specialist
       department: Valcon, Novi Sad
       year: 2022 - present
-      maindescription: Data Engineer Specialist
-      description: Tech project team lead
+      maindescription: 
+      description: 
       linkitems:
         - link: https://www.valcon.com/sr
           linkname: valcon.com
