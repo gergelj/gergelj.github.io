@@ -6,12 +6,15 @@ img: assets/img/thumbs/2021-11-21-relational-normalization.jpg
 importance: 1
 category: work
 related_publications: 
+github_repo: rel-norm
 ---
 
-Don't you sometimes get a sudden idea that it keeps melting your brain until you start working on that? An itching sensation that stays with you no matter night or day. Well, the idea that kept my mind busy for the last couple of days was the idea of an application for relational modeling. I know, it doesn't sound that interesting but it was interesting enough for me to do a bit of research and to start working on it.
+Don’t you sometimes get a sudden idea that just keeps buzzing in your mind until you start working on it? That persistent itch that doesn’t go away, day or night? Recently, I had one of those moments with the concept of an application for relational modeling. It might not sound thrilling to everyone, but it intrigued me enough to dive into some research and start developing it.
 
-I needed a compact little console application which would take a relational schema description as an input and spit out a whole bunch of decomposed relational schemas as an output. This would expedite my tasks - as a teaching fellow - and it would enable faster test reviews. This statement shows how far to the extremes a programmer could go: developing an app from scratch for days for the sake of saving an hour or two reviewing student's tests. But, be it a little bit of time-saving, it is time-saving in the end; so I jumped to work on the app.
+I needed a compact console application that would take a relational schema description as input and generate a series of decomposed relational schemas as output. This tool would streamline my tasks as a teaching fellow and facilitate faster test reviews. It’s a testament to how far a programmer might go: spending days developing an app just to save an hour or two reviewing student tests. But even a small time-saving is still time-saving, so I jumped right into it.
 
-I chose Java as a programming language because it suits the purpose of the app. I could have gone with a script language like Python or Javascript but I found the collection operations a bit cumbersome in those languages. Java seemed okay and the object-oriented behaviour fit perfectly for the use case. I also used Maven as a build automation tool because I wanted to unit-test my methods.
+I chose Java for this project because it suited the app’s needs well. Although I could have used a scripting language like Python or JavaScript, I found their collection operations a bit cumbersome. Java’s object-oriented approach fit perfectly for this use case, and I used Maven as a build automation tool to unit-test my methods.
 
-I found it really interesting how fast I was able to finish the development of this app. I guess I was just enthusiastic about the topic. The fact that this piece of software would literally help me in my work made this developing process fun and easy.
+I was pleasantly surprised by how quickly I completed the development of this app. My enthusiasm for the topic played a big role in this, and knowing that this software would directly aid my work made the development process both enjoyable and efficient.
+
+More about the project on [github](https://github.com/{{ site.github_username }}/{{ page.github_repo }}). 

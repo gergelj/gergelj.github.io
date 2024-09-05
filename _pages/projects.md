@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: <em>a collection of projects that kept me up at nights</em>
 nav: true
-nav_order: 3
+nav_order: 1
 display_categories: [work, fun]
 horizontal: false
 ---

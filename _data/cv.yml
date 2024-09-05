@@ -15,6 +15,10 @@
       links:
         - link: https://gergelj.github.io
           name: gergelj.github.io
+    - name: Mail
+      links:
+        - link: mailto:kgerg13@gmail.com
+          name: kgerg13@gmail.com
 
 - title: Education
   type: time_table
